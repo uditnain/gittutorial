@@ -1,0 +1,198 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.sohit{
+  /* border: 5px solid red; */
+  
+  height: 768px;
+  width: auto;
+  color: blue;
+  background-image: url('/src/image/img.jpg');
+}
+.nav{
+  /* border: 3px solid white; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.img{
+  width: 100%;
+}
+
+.mid{
+  /* border: 5px solid blue; */
+  width: 500px;
+  
+  
+}
+.right{
+  /* border: 5px solid brown; */
+  padding :15px;
+  justify-content: space-between;
+  
+
+} 
+.left{
+  /* border: 5px solid green; */
+  width: 100px;
+
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: antiquewhite;
+}
+.navbar li a {
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 20px;
+}
+.navbar li a:hover,.navbar li a.active{
+  text-decoration: underline;
+  color: grey;
+
+}
+.img2{
+  height: 50px;
+  width: 50px;
+
+}
+.btn{
+  margin: 0px 10px;
+  background-color: black;
+  color: antiquewhite;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+.container{
+
+  color: antiquewhite;
+  padding: 35px;
+  width: 100%;
+  
+  
+}
+.formgroup input{
+  text-align: center;
+  display: block;
+  width: 255px;
+  margin: 5px;
+}
+.container button{
+  display: block;
+  
+  
+}
+
+.nain3{
+  margin-top: -20px;
+}
+
+
+
+
+.nain{
+  text-align:center;
+  padding: 34px;
+  margin-top: -20px;
+  
+  font-size: 25px;
+  color: antiquewhite;
+}
+.nain2{
+  text-align: center;
+  font-size: 60px;
+  color: antiquewhite;
+  font-family: cursive;
+  
+}
+.gym{
+  text-align: center;
+  color: black;
+  width: 100%;
+  background-image: url("/src/image/img2.jpg");
+  
+}
+.gym p{
+  
+  text-align: center;
+  margin: auto;
+  width:50% ;
+  color: black;
+  padding: 50px;
+  
+}
+.oops{
+  text-align:center;
+  color: black;
+  width: 100%;
+}
+.net{
+  flex-direction: row;
+  text-align:left;
+  color: black;
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+  
+
+  
+  
+}
+.page{
+  margin-left: 150px;
+}
+
+.nano{
+  text-align: center;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 0px 10px;
+  
+}
+
+
+
+
